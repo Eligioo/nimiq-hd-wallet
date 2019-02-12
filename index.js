@@ -1,6 +1,6 @@
 const Nimiq = require("@nimiq/core");
 
-(async () => {
+(() => {
     //Reference: https://raw.githubusercontent.com/bitcoin/bips/master/bip-0032/derivation.png
     //Entropy also known as MasterSeed in reference image. This entropy is the result of a RNG.
     const entropy = Nimiq.Entropy.generate();
